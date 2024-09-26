@@ -42,22 +42,22 @@ public class Siakad19 {
         System.out.println("Mahasiswa dengan nama " + nama + " (NIM " + nim + ")" + " Kelas " + kelas + " nomor absen " + absen);
         nilaiAkhir = nilaiKuis + nilaiTugas + nilaiUTS + nilaiUAS;
         System.out.println("Nilai akhir : " + nilaiAkhir);
-        if (nilaiAkhir >= 80 && nilaiAkhir <= 100) {
+        if (nilaiAkhir > 80 && nilaiAkhir <= 100) {
             System.out.println("Nilai akhir huruf : A");
             System.out.println("Kualifikasi : Sangat Baik");
-        } else if (nilaiAkhir >= 73 && nilaiAkhir <= 80) {
+        } else if (nilaiAkhir > 73 && nilaiAkhir <= 80) {
             System.out.println("Nilai akhir huruf : B+");
             System.out.println("Kualifikasi : Lebih dari Baik");
-        } else if (nilaiAkhir >= 65 && nilaiAkhir <= 73) {
+        } else if (nilaiAkhir > 65 && nilaiAkhir <= 73) {
             System.out.println("Nilai akhir huruf : B");
             System.out.println("Kualifikasi : Baik");
-        } else if (nilaiAkhir >= 60 && nilaiAkhir <= 65) {
+        } else if (nilaiAkhir > 60 && nilaiAkhir <= 65) {
             System.out.println("Nilai akhir huruf : C+");
             System.out.println("Kualifikasi : Lebih dari Cukup");
-        } else if (nilaiAkhir >= 50 && nilaiAkhir <= 60) {
+        } else if (nilaiAkhir > 50 && nilaiAkhir <= 60) {
             System.out.println("Nilai akhir huruf : C");
             System.out.println("Kualifikasi : Cukup");
-        } else if (nilaiAkhir >= 39 && nilaiAkhir <= 50) {
+        } else if (nilaiAkhir > 39 && nilaiAkhir <= 50) {
             System.out.println("Nilai akhir huruf : D");
             System.out.println("Kualifikasi : Kurang");
         } else {
